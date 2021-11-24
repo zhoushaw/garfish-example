@@ -1,0 +1,13 @@
+node_modules/*
+src/static/*
+src/templates/*
+output/*
+webpack*
+test/*
+scm_*
+README.MD
+*.json
+*.md
+*.png
+*.sh
+*.less

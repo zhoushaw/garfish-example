@@ -1,0 +1,11 @@
+
+packages:
+  - "master-vue"
+  - "master-react"
+  - "react16" 
+  - "react17"
+  - "vue2"
+  - "vue3"
+  - "angular"
+  - "umi"
+  - "app3"

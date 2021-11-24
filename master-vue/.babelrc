@@ -1,0 +1,18 @@
+{
+  "presets": [
+      ["env", {
+          "modules": false,
+          "loose": true
+      }],
+      "stage-1"
+  ],
+  "plugins": [
+      "transform-object-assign",
+      "transform-decorators-legacy"
+  ],
+  "env": {
+      "test": {
+          "plugins": ["transform-es2015-modules-commonjs"]
+      }
+  }
+}

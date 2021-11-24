@@ -1,0 +1,13 @@
+{
+  "name": "gar-example",
+  "scripts": {
+    "clean": "pnpm -r exec -- rm -rf node_modules && rm -rf node_modules",
+    "setup": "pnpm install",
+    "start": "pnpm run start --parallel",
+    "build": "pnpm build --parallel"
+  },
+  "devDependencies": {
+    "copy-dir": "^1.3.0",
+    "pnpm": "^6.20.3"
+  }
+}
